@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Planning
+.planning
+.gsd
+.agent
+.gemini
+.claude
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+# Markdown files
+quantum_ai_verse_abstract.md
+quantum_ai_rules2.md
+quantum_rules1.md
+TechStack.md
+
+stitch_quantum_astral_nexus/
