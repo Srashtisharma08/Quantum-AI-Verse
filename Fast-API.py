@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from typing import List
 
 
-app = FastAPI()
+app = FastAPI() 
 
 class Qubit(BaseModel):
    q_id: int | None = None
