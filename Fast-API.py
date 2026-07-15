@@ -10,7 +10,7 @@ class Qubit(BaseModel):
    q_name: str | None = None
    q_state: complex | None = None
 
-qubits: List[Qubit] = []
+qubits: List[Qubit] = [] 
 
 @app.get("/")
 def read_root():
